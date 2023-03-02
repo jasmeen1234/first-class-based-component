@@ -4,7 +4,7 @@ import './App.css';
 
 class App extends React.Component {
   constructor(props) {
-    super(props);
+    super(props); 
    this.state= {
     name: "John Doe", enrollmentNo: "12345678", age: 34
   };

@@ -10,7 +10,7 @@ class App extends React.Component {
   };
 } 
 changeAge=()=>{
-  this.setState({age: this.state.age+1});
+  this.setState({age: this.state.age+1});   
 }
 render() {
   return(

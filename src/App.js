@@ -8,7 +8,7 @@ class App extends React.Component {
    this.state= {
     name: "John Doe", enrollmentNo: "12345678", age: 34
   };
-}
+} 
 changeAge=()=>{
   this.setState({age: this.state.age+1});
 }
